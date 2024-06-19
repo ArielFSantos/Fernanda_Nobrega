@@ -2,7 +2,7 @@ import './header.css'
 
 function Header(){
     return(
-        <header className='test'>
+        <header>
             <h1>Fernanda Nobrega</h1>
             <nav>teste</nav>
         </header>

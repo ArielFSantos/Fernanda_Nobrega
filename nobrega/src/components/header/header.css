@@ -1,10 +1,11 @@
-.Header{
-    margin: auto;
-}
-h1{
-    margin: auto;
-}
-.test{
-    margin: auto;
+
+header{
+    display: flex;
     text-align: center;
+}
+header h1{
+    width: 300px;
+}
+header nav{ 
+    width: 300px;
 }
