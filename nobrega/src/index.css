@@ -1,8 +1,15 @@
+:root{
+  --cor01:#fbf3e3,
+  --cor02:#c6c499,
+  --cor03:#7b6444,
+  --cor04:#9c946c,
+  --cor05:#94946e
+}
 *{
   padding: 0;
   margin: 0;
 }
 html,body,#root{
-  background-color: #EFEFEF;
+  background-color:var(--cor01);
   height: 100%;
 }

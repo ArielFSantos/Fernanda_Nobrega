@@ -4,7 +4,13 @@ function Header(){
     return(
         <header>
             <h1>Fernanda Nobrega</h1>
-            <nav>teste</nav>
+            <nav>
+                <div>Inicio</div>
+                <div>Sobre Mim</div>
+                <div>Fotos</div>
+                <div>Contato</div>
+            </nav>
+            
         </header>
     )
 }
