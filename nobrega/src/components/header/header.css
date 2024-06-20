@@ -8,14 +8,18 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--cor05);
 }
 header h1{
     width: 300px;
+    font-family: "Playwrite SK", cursive;
+    font-size: x-large;
 }
 header nav{ 
     width: 300px;
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
     
 }
