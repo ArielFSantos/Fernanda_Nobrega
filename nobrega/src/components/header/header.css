@@ -23,3 +23,10 @@ header nav{
     font-weight: bold;
     
 }
+footer{   
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid var(--cor05);
+}
