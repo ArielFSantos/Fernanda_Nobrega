@@ -11,6 +11,7 @@ header{
     border-bottom: 2px solid var(--cor05);
 }
 header h1{
+    padding-bottom: 5px;
     width: 300px;
     font-family: "Playwrite SK", cursive;
     font-size: x-large;
@@ -22,6 +23,9 @@ header nav{
     font-family: sans-serif;
     font-weight: bold;
     
+}
+nav div{
+    padding: 3px;
 }
 footer{   
     text-align: center;
