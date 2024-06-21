@@ -2,20 +2,19 @@ import './header.css'
 
 function Header(){
     return(
-        <body>
+        <>
             <header>
                 <h1>Fernanda Nobrega</h1>
                 <nav>
-                    <div>Inicio</div>
-                    <div>Sobre Mim</div>
-                    <div>Fotos</div>
-                    <div>Contato</div>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Sobre Mim</li>
+                        <li>Fotos</li>
+                        <li>Contato</li>
+                    </ul>
                 </nav>
             </header>
-            <footer>
-                <p>Desenvolvido por Ariel Freitas</p>
-            </footer>
-        </body>
+        </>
     )
 }
 export default Header
