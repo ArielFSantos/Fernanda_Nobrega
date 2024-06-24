@@ -1,6 +1,6 @@
 import './main.css'
 
-function Hain(){
+function main(){
     return(
         <>
         <h1>Titulo Main</h1>
@@ -9,4 +9,4 @@ function Hain(){
     )
 }
 
-export default Hain
+export default main
