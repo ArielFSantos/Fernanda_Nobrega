@@ -1,6 +1,9 @@
 
 
 header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: var(--cor01);
     padding: 30px;
     display: flex;
@@ -9,6 +12,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 2px solid var(--cor05);
+    opacity: 0.8;
 }
 header h1{
     padding-bottom: 5px;

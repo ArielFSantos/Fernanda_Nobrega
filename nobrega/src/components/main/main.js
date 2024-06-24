@@ -3,8 +3,10 @@ import './main.css'
 function main(){
     return(
         <>
-        <h1>Titulo Main</h1>
-        <p>lorem impsum lorem ipsum</p>
+        <div className='bg-1'></div>
+        <div className='bg-2'></div>
+        <div className='bg-3'></div>
+        <div className='bg-4'></div>
         </>
     )
 }
