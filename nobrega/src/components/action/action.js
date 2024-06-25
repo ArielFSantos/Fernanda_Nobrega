@@ -1,12 +1,13 @@
 import "./action.css"
 function Action (){
-    let numero = 1;
-    function somar(){  
+    let numero = 0;
+    function somar(numero){  
         numero = numero +1;
-        window.alert(`Soma : ${numero}`)
+        return numero;
     }
     return(
         <>
+        <h1>Soma:{numero}</h1>
         <div className='Container'><button onClick={somar}>Somar +1</button></div>
         </>
     )
