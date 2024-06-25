@@ -2,8 +2,8 @@ import './main.css'
 
 function main(){
     function teste(){
-        window.alert('Funcionou')
-        console.log('Funcionou')
+        
+        console.log("Funcionou")
     }
     return(
         <>

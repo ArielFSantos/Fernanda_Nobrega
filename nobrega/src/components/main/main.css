@@ -4,6 +4,12 @@
     height: 100%;
     margin: auto;
 }
+.bg-1 button{
+    bottom: 0;
+    position: fixed;
+    
+    
+}
 .bg-2{
     background-color: var(--cor03);
     width: 100%;
