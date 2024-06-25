@@ -1,0 +1,8 @@
+.Container{
+    width: 100%;
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+}
