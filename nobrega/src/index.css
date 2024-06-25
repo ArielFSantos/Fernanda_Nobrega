@@ -13,6 +13,3 @@ html,body,#root{
   background-color:var(--cor01);
   height: 100%;
 }
-h1,div{
-  color:var(--cor05);
-}
