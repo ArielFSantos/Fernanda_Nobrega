@@ -1,7 +1,5 @@
 header{
-    position: fixed;
     top: 0;
-    width: 100%;
     background-color: var(--cor01);
     color: var(--cor05);
     padding: 20px;

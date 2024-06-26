@@ -13,28 +13,32 @@ p{
 }
 
 .bg-1{
-    background-image: url('https://picsum.photos/1920/1080');
+    background-image: url('../../../image/foto2.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: top center;
     display: flex;
     align-items: center;
 }
 .bg-2{
-    background-image: url('https://picsum.photos/800/500');
+    background-image: url('../../../image/foto1.jpg');
     background-size: cover;
+    background-position: top center;
     display: flex;
     align-items: center;
 }
 .bg-3{
-    background-image: url('https://picsum.photos/700/600');
+    background-image: url('../../../image/foto5.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: top center;
     display: flex;
     align-items: center;
 }
 .bg-4{
-    background-image: url('https://picsum.photos/800/600');
+    background-image: url('../../../image/foto4.jpg');
     background-size: cover;
+    background-position:top center;
     display: flex;
     align-items: center;
 }
