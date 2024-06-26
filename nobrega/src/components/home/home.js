@@ -3,27 +3,23 @@ function Home(){
     return(
         <>
         <div className='bg-1'> 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quibusdam ratione mollitia est esse eaque voluptate voluptatem rerum consequuntur quod, 
-            architecto aliquam veniam delectus quasi ex ut deserunt tenetur necessitatibus repellendus.
+            <p>
+                Momentos que duram para sempre.
             </p>
         </div>
         <div className='bg-2'>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quibusdam ratione mollitia est esse eaque voluptate voluptatem rerum consequuntur quod, 
-            architecto aliquam veniam delectus quasi ex ut deserunt tenetur necessitatibus repellendus.
-        </p>
+            <p>
+                Imortalizando seus melhores momentos com elegância.
+            </p>
         </div>
         <div className='bg-3'>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quibusdam ratione mollitia est esse eaque voluptate voluptatem rerum consequuntur quod, 
-            architecto aliquam veniam delectus quasi ex ut deserunt tenetur necessitatibus repellendus.
+        <p>
+            Criando memórias que você vai amar revisitar.
         </p>
         </div>
         <div className='bg-4'>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quibusdam ratione mollitia est esse eaque voluptate voluptatem rerum consequuntur quod, 
-            architecto aliquam veniam delectus quasi ex ut deserunt tenetur necessitatibus repellendus.
+        <p>
+            Seu sorriso, nossa paixão em fotografar.
         </p>
         </div>
         </>
