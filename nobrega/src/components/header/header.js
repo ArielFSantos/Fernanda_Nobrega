@@ -10,35 +10,35 @@ function Header(){
         <>
             <header>
                 <h1>Fernanda Nobrega</h1>
-                <Router>
-            <ul>
-                <li>
-                <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="about">About Me</Link>
-                </li>
-                <li>
-                <Link to="photos">Photos</Link>
-                </li>
-                <li>
-                <Link to="contact">Contact</Link>
-                </li>
-            </ul>
-            <Routes>
-                <Route exact path="/">
-                    <Home/>
-                </Route>
-                <Route path="/about">
-                    <About/>
-                </Route>
-                <Route path="/photos">
-                    <Photos/>
-                </Route>
-                <Route path="/contact">
-                    <Contact/>
-                </Route>
-            </Routes>
+            <Router>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="about">About Me</Link>
+                    </li>
+                    <li>
+                        <Link to="photos">Photos</Link>
+                    </li>
+                    <li>
+                        <Link to="contact">Contact</Link>
+                    </li>
+                </ul>
+                <Switch>
+                    <Route exact path="/">
+                        <Home/>
+                    </Route>
+                    <Route path="/about">
+                        <About/>
+                    </Route>
+                    <Route path="/photos">
+                        <Photos/>
+                    </Route>
+                    <Route path="/contact">
+                        <Contact/>
+                    </Route>
+                </Switch>
             </Router>
 
             </header>
