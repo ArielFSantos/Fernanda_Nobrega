@@ -1,17 +1,25 @@
+.container{
+    height: 100%;
+}
 .about{
     padding-top: 100px;
     background-image: url(../../../../image/Fox.jpeg);
     background-size: cover;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 60%;
     margin: auto;
 }
 .title{
+    padding: 20px;
     text-align: center;
 }
 .text{
+    
     margin: auto;
     text-align: center;
     width: 80vw;
+    color: var(--cor04);
+    font-size: large;
+    text-shadow: none;
 }
