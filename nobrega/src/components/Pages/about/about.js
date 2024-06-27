@@ -1,8 +1,8 @@
-function about (){
+function About (){
     return(
         <>
         <h1>About</h1>
         </>
     )
 }
-export default about
+export default About
