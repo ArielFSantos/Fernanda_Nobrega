@@ -3,7 +3,7 @@ div{
     height: 100%;
     box-shadow: inset 3px 3px 3px 2px rgba(0, 0, 0, 0.432);
 }
-p{
+p{  
     margin-left: 10vw;
     width: 35vw;
     color: var(--cor02);
