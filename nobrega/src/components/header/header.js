@@ -5,7 +5,9 @@ function Header() {
     return (
         <>
             <header>
-                <h1>Fernanda Nobrega</h1>
+                <Link to="/">
+                    <h1>Fernanda Nobrega</h1>
+                </Link>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
