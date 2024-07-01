@@ -3,14 +3,32 @@
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor03);
+    color: var(--cor04);
 }
 .text{
-    
+
     margin: auto;
     text-align: center;
-    width: 80vw;
-    color: var(--cor04);
+    width: 50vw;
+    color: var(--cor03);
     font-size: large;
     text-shadow: none;
+    padding: 20px;
+}
+.formulario{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+.container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    height: 100px;
+}
+input{
+    width: 40vw;
+    height: 20px;
 }
