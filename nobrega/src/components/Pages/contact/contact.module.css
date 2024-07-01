@@ -9,26 +9,36 @@
 
     margin: auto;
     text-align: center;
-    width: 50vw;
+    width: 400px;
     color: var(--cor03);
     font-size: large;
     text-shadow: none;
     padding: 20px;
 }
 .formulario{
+    color: var(--cor04);
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 50vw;
+    flex-direction: column;
 }
 .container{
     display: flex;
+    flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
 }
 .description{
     height: 100px;
 }
+.button{
+    margin-top: 10px;
+    width: 50px;
+}
 input{
-    width: 40vw;
+    width: 400px;
     height: 20px;
+}
+.socialmidias {
+    margin: auto;
+
 }
