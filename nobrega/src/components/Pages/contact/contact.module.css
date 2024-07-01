@@ -15,18 +15,20 @@
     text-shadow: none;
     padding: 20px;
 }
-.formulario{
-    color: var(--cor04);
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 .container{
     display: flex;
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly
 }
+.formulario{
+    color: var(--cor04);
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .description{
     height: 100px;
 }
@@ -37,8 +39,4 @@
 input{
     width: 400px;
     height: 20px;
-}
-.socialmidias {
-    margin: auto;
-
 }
