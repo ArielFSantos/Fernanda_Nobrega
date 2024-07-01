@@ -1,6 +1,16 @@
-*{
-    margin: auto;
+
+.title{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor03);
 }
-p1{
+.text{
     
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    color: var(--cor04);
+    font-size: large;
+    text-shadow: none;
 }
