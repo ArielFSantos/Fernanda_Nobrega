@@ -7,8 +7,10 @@ function Contact(){
         <span className={styles.container} >
             <aside className={styles.socialmidias}>
                 <p className={styles.text}>Para realizar um orçamento entre em contato através de minhas redes sociais ou preencha o formulario</p>
-                <div>Instagram</div>
-                <div>Whatsapp</div>
+                <div>
+                    <a href="https://www.instagram.com/nobrega.photograph/" target="_blank"><img className={styles.insta}></img></a>
+                    <a href="/" target="_blank"><img className={styles.whats}></img></a>
+                </div>               
             </aside>
             <form action="send" className={styles.formulario}>
                 <h2>Nome para contato:</h2>
