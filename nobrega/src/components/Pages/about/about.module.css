@@ -15,8 +15,8 @@
     color: var(--cor03);
 }
 .text{
-    
-    margin: auto;
+    padding-bottom: 30px;
+    font-size: 10px;
     text-align: center;
     width: 80vw;
     color: var(--cor04);
