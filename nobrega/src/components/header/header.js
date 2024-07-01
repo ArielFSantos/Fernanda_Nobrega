@@ -8,16 +8,16 @@ function Header() {
                 <h1>Fernanda Nobrega</h1>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">Pagina Inicial</Link>
                     </li>
                     <li>
-                        <Link to="about">About Me</Link>
+                        <Link to="about">Sobre Mim</Link>
                     </li>
                     <li>
-                        <Link to="photos">Photos</Link>
+                        <Link to="photos">Fotos</Link>
                     </li>
                     <li>
-                        <Link to="contact">Contact</Link>
+                        <Link to="contact">Orçamento</Link>
                     </li>
                 </ul>
             </header>
