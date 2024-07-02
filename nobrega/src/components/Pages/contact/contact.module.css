@@ -40,17 +40,9 @@ input{
     width: 400px;
     height: 20px;
 }
-.insta{
-    background-image: url(../../../../image/insta.png);
 
-}
-.whats{
-    background-image: url(../../../../image/whatsapp.png);
-    
-}
 .insta, .whats{
-    background-size: cover;
-    margin: 20px;
+ width: 30px;    
 }
 .socialmidias{
     display: flex;

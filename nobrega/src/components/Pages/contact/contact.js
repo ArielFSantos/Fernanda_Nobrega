@@ -1,4 +1,6 @@
 import styles from './contact.module.css'
+import insta from '../../../image/insta.png'
+import whats from '../../../image/whatsapp.png'
 
 function Contact(){
     return(
@@ -10,13 +12,13 @@ function Contact(){
                 <div className={styles.externalLinks}>
                     <div className={styles.containerInsta}>
                         <a href="https://www.instagram.com/nobrega.photograph/" target="_blank" rel="noreferrer">
-                        <img alt='contato Instagram' className={styles.insta}></img>
+                        <img alt='contato Instagram' src={insta} className={styles.insta}></img>
                         </a>
                         <h2>@nobrega.photograph</h2>
                     </div>
                     <div className={styles.containerWhats}>
                         <a href="/" target="_blank" rel="noreferrer">
-                        <img alt='contato whatsapp' className={styles.whats}></img>
+                        <img alt='contato whatsapp' src={whats} className={styles.whats}></img>
                         </a>
                         <h2>+55 62 99251-5025</h2>
                     </div>
