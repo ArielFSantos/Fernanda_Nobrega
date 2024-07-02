@@ -9,17 +9,19 @@
     margin: auto;
 }
 .title{
+    font-size: 50px;
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor03);
 }
 .text{
+    margin: auto;
     padding-bottom: 30px;
     font-size: 10px;
     text-align: center;
     width: 80vw;
     color: var(--cor04);
-    font-size: large;
+    font-size: x-large;
     text-shadow: none;
 }
