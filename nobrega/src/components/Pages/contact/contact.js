@@ -17,7 +17,7 @@ function Contact(){
                         <h2>@nobrega.photograph</h2>
                     </div>
                     <div className={styles.containerWhats}>
-                        <a href="/" target="_blank" rel="noreferrer">
+                        <a href="https://wa.me/556292515025" target="_blank" rel="noreferrer">
                         <img alt='contato whatsapp' src={whats} className={styles.whats}></img>
                         </a>
                         <h2>+55 62 99251-5025</h2>
