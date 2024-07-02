@@ -15,7 +15,7 @@ p{
     
 }
 .bg-1{
-    background-image: url('../../../../image/foto2.jpg');
+    background-image: url('../../../image/foto2.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -23,14 +23,14 @@ p{
     align-items: center;
 }
 .bg-2{
-    background-image: url('../../../../image/foto1.jpg');
+    background-image: url('../../../image/foto1.jpg');
     background-size: cover;
     background-position: top center;
     display: flex;
     align-items: center;
 }
 .bg-3{
-    background-image: url('../../../../image/foto5.jpg');
+    background-image: url('../../../image/foto5.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -38,7 +38,7 @@ p{
     align-items: center;
 }
 .bg-4{
-    background-image: url('../../../../image/foto4.jpg');
+    background-image: url('../../../image/foto4.jpg');
     background-size: cover;
     background-position:top center;
     display: flex;
