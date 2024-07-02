@@ -7,9 +7,19 @@ function Contact(){
         <span className={styles.container} >
             <aside className={styles.socialmidias}>
                 <p className={styles.text}>Para realizar um orçamento entre em contato através de minhas redes sociais ou preencha o formulario</p>
-                <div>
-                    <a href="https://www.instagram.com/nobrega.photograph/" ><img alt='contato Instagram' className={styles.insta}></img></a>
-                    <a href="/"><img alt='contato whatsapp' className={styles.whats}></img></a>
+                <div className={styles.externalLinks}>
+                    <div className={styles.containerInsta}>
+                        <a href="https://www.instagram.com/nobrega.photograph/" target="_blank" rel="noreferrer">
+                        <img alt='contato Instagram' className={styles.insta}></img>
+                        </a>
+                        <h2>@nobrega.photograph</h2>
+                    </div>
+                    <div className={styles.containerWhats}>
+                        <a href="/" target="_blank" rel="noreferrer">
+                        <img alt='contato whatsapp' className={styles.whats}></img>
+                        </a>
+                        <h2>+55 62 99251-5025</h2>
+                    </div>
                 </div>               
             </aside>
             <form action="send" className={styles.formulario}>
