@@ -24,7 +24,6 @@
 }
 .formulario{
     color: var(--cor04);
- 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -36,10 +35,6 @@
 .button{
     margin:10px 0px 30px 0px;
     width: 50px;
-}
-input{
-    width: 400px;
-    height: 20px;
 }
 
 .insta, .whats{
@@ -77,6 +72,8 @@ label {
 }
 
 input {
+    width: 400px;
+    height: 20px;
     margin-bottom: 16px;
     padding: 8px;
     border: 1px solid #ccc;
