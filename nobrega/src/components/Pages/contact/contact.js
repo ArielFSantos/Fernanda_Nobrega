@@ -24,7 +24,7 @@ function Contact(){
                     </div>
                 </div>               
             </aside>
-            <form>
+            <form action="https://formspree.io/f/xdknodzg" method="POST">
                 <label for="nome">Nome para contato:</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome"/>
 
