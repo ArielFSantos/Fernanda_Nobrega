@@ -24,7 +24,7 @@ function Contact(){
                     </div>
                 </div>               
             </aside>
-            <form className={styles.formulario}>
+            <form>
                 <label for="nome">Nome para contato:</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome"/>
 
@@ -40,7 +40,7 @@ function Contact(){
                 <label for="descricao">Descreva o Evento:</label>
                 <input className={styles.description} type="text" id="descricao" name="descricao" placeholder="Descrição"/>
 
-                <button className={styles.button} type="submit">Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
 
         </span>
