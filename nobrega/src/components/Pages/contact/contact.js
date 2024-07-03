@@ -24,19 +24,25 @@ function Contact(){
                     </div>
                 </div>               
             </aside>
-            <form action="send" className={styles.formulario}>
-                <h2>Nome para contato:</h2>
-                <input type="text" placeholder='Nome'/>
-                <h2>Numero para contato:</h2>
-                <input type="number" placeholder='Whatsapp'/>
-                <h2>Local do evento:</h2>
-                <input type="text" placeholder='Bairro/Cidade'/>
-                <h2>Duração do Evento:</h2>
-                <input type="number" placeholder='Horas'/>
-                <h2>Descreva o Evento:</h2>
-                <input className={styles.description} type="text" placeholder='Descrição' />
-                <button className={styles.button} type='submit'>Enviar</button>
+            <form>
+                <label for="nome">Nome para contato:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome"/>
+
+                <label for="telefone">Número para contato:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Whatsapp"/>
+
+                <label for="local">Local do evento:</label>
+                <input type="text" id="local" name="local" placeholder="Bairro/Cidade"/>
+
+                <label for="duracao">Duração do Evento:</label>
+                <input type="number" id="duracao" name="duracao" placeholder="Horas"/>
+
+                <label for="descricao">Descreva o Evento:</label>
+                <input type="text" id="descricao" name="descricao" placeholder="Descrição"/>
+
+                <button type="submit">Enviar</button>
             </form>
+
         </span>
         </>
     )
