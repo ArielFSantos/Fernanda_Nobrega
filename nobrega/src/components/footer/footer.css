@@ -1,12 +1,10 @@
 footer{
     font-size: 9px;
     font-family: Arial, Helvetica, sans-serif;
-    
     width: 100%;
     background-color: var(--cor01);
     color: var(--cor05);
     text-align: center;
     opacity: 0.8;
-    
     
 }
