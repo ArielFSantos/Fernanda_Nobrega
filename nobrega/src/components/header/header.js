@@ -14,7 +14,7 @@ function Header() {
                         <Link to="about">Sobre Mim</Link>
                     </li>
                     <li>
-                        <Link to="photos">Fotos</Link>
+                        <Link to="photos">Portifolio</Link>
                     </li>
                     <li>
                         <Link to="contact">Orçamento</Link>

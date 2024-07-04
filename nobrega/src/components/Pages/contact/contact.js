@@ -37,8 +37,8 @@ function Contact(){
                 <label for="duracao">Duração do Evento:</label>
                 <input type="number" id="duracao" name="duracao" placeholder="Horas"/>
 
-                <label for="descricao">Descreva o Evento:</label>
-                <input className={styles.description} type="text" id="descricao" name="descricao" placeholder="Descrição"/>
+                <label for="descricao">Descrição:</label>
+                <input className={styles.description} type="text" id="descricao" name="descricao" placeholder="Descreva aqui como será o evento"/>
 
                 <button type="submit">Enviar</button>
             </form>
