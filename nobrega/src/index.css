@@ -12,4 +12,5 @@
 html,body,#root{
   background-color:var(--cor01);
   height: 100%;
+  
 }
