@@ -11,7 +11,7 @@ function Home(){
         </div>
         <div className='bg-2'>
             <p>
-                Imortalizando seus melhores momentos com elegância.
+                Imortalizando seus melhores momentos com carinho.
             </p>
         </div>
         <div className='bg-3'>
