@@ -4,35 +4,10 @@ import Masonry from 'react-masonry-css';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import styles from './photos.module.css';
-import image1 from '../../../image/bg_1_g.jpg'
-import image2 from '../../../image/bg_2_g.jpg'
-import image3 from '../../../image/bg_3_g.jpg'
-import image4 from '../../../image/bg_4_g.jpg'
-import image5 from '../../../image/bg_1_p.jpg'
-import image6 from '../../../image/bg_2_p.jpg'
-import image7 from '../../../image/bg_3_p.jpg'
-import image8 from '../../../image/bg_4_p.jpg'
 
-const images = [
-    image1,
-    image5,
-    image3,
-    image6,
-    image1,
-    image7,
-    image2,
-    image4,
-    image8,
-    image1,
-    image5,
-    image3,
-    image6,
-    image1,
-    image7,
-    image2,
-    image4,
-    image8,
-];
+// Importando imagens locais
+const importAll = (r) => r.keys().map(r);
+const images = importAll(require.context('../../../image', false, /\.(png|jpe?g|svg)$/));
 
 function Photos() {
     const [open, setOpen] = useState(false);
@@ -76,7 +51,14 @@ function Photos() {
             </Masonry>
 
             {/* Modal para exibir a imagem em tamanho maior */}
-            <Modal open={open} onClose={onCloseModal} center>
+            <Modal
+                open={open}
+                onClose={onCloseModal}
+                center
+                classNames={{
+                    modal: styles.customModal // Aplicar a classe personalizada
+                }}
+            >
                 <div className={styles.modalContent}>
                     <button onClick={handlePrev} className={styles.navButton}>&#10094;</button>
                     <img src={images[selectedImageIndex]} alt={`Gallery Image ${selectedImageIndex + 1}`} className={styles.modalImage} />
