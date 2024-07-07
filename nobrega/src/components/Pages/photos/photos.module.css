@@ -53,7 +53,7 @@
     width: auto;
     max-width: 100%;
     max-height: 90vh; /* Garante que a imagem não ultrapasse 90% da altura da janela */
-    border-radius: 8px;
+    
     object-fit: contain;  
 }
 
@@ -93,7 +93,7 @@
 .customModal {
     max-width: 90%; /* Define a largura máxima do modal */
     width: auto; /* Permite que o modal se ajuste ao conteúdo até o max-width */
-    
+    padding: 0;
 }
 
 .customModal .react-responsive-modal-modal {
