@@ -4,32 +4,32 @@ import Masonry from 'react-masonry-css';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import styles from './photos.module.css';
+import image1 from '../../../image/bg_1_g.jpg'
+import image2 from '../../../image/bg_2_g.jpg'
+import image3 from '../../../image/bg_3_g.jpg'
+import image4 from '../../../image/bg_4_g.jpg'
 
 const images = [
-    'https://picsum.photos/202/100',
-    'https://picsum.photos/201/100',
-    'https://picsum.photos/101/100',
-    'https://picsum.photos/102/100',
-    'https://picsum.photos/203/100',
-    'https://picsum.photos/104/100',
-    'https://picsum.photos/205/100',
-    'https://picsum.photos/106/100',
-    'https://picsum.photos/202/100',
-    'https://picsum.photos/201/100',
-    'https://picsum.photos/101/100',
-    'https://picsum.photos/102/100',
-    'https://picsum.photos/203/100',
-    'https://picsum.photos/104/100',
-    'https://picsum.photos/205/100',
-    'https://picsum.photos/106/100',
-    'https://picsum.photos/202/100',
-    'https://picsum.photos/201/100',
-    'https://picsum.photos/101/100',
-    'https://picsum.photos/102/100',
-    'https://picsum.photos/203/100',
-    'https://picsum.photos/104/100',
-    'https://picsum.photos/205/100',
-    'https://picsum.photos/106/100',
+    image1,
+    image2,
+    image3,
+    image4,
+    image1,
+    image2,
+    image3,
+    image4,
+    image1,
+    image2,
+    image3,
+    image4,
+    image1,
+    image2,
+    image3,
+    image4,
+    image1,
+    image2,
+    image3,
+    image4,
 ];
 
 function Photos() {

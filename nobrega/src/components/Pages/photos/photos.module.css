@@ -58,19 +58,20 @@
 
 /* Estilo dos botões de navegação */
 .navButton {
-    background: rgba(0, 0, 0, 0.5);
+    
     border: none;
-    color: white;
+    color: black;
     font-size: 2rem;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 30%;
     z-index: 10;
     transition: background 0.3s;
 }
 
 .navButton:hover {
     background: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 .navButton:focus {
