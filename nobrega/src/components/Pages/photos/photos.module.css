@@ -23,6 +23,7 @@
     margin-bottom: 10px;
     transition: transform 0.2s;
     text-align: center;
+    cursor: pointer; /* Mostrar que é clicável */
 }
 
 /* Estilo das imagens */
@@ -37,4 +38,47 @@
 /* Efeito ao passar o mouse */
 .fotos img:hover {
     transform: scale(1.05);
+}
+
+/* Estilo da imagem na modal */
+.modalImage {
+    width: 100%;
+    height: 95vh;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+/* Estilo do conteúdo da modal */
+.modalContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Estilo dos botões de navegação */
+.navButton {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.navButton:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.navButton:focus {
+    outline: none;
+}
+
+/* Estilo para alinhar os botões com a imagem */
+.modalImage {
+    flex-grow: 1;
+    max-width: 80%;
 }
