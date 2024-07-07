@@ -5,7 +5,7 @@ function Home(){
     return(
         <>
         <main>
-            <div className='bg-1'>
+            <div className='bg-1'> 
                 <p>
                     Momentos que duram para sempre.
                 </p>
@@ -26,7 +26,6 @@ function Home(){
             </p>
             </div>
         </main>
-        <div></div>
         </>
     )
 }
