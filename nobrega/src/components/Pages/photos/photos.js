@@ -1,23 +1,24 @@
-// src/components/Pages/photos/Photos.js
+
 import React from 'react';
 import Masonry from 'react-masonry-css';
 import styles from './photos.module.css';
 
 const images = [
-    'https://picsum.photos/200/105',
-    'https://picsum.photos/140/200',
-    'https://picsum.photos/150/200',
-    'https://picsum.photos/100/200',
-    'https://picsum.photos/200/100',
-    'https://picsum.photos/100/215',
-    'https://picsum.photos/200/120',
-    'https://picsum.photos/200/110',
+    'https://picsum.photos/202/100',
+    'https://picsum.photos/201/100',
+    'https://picsum.photos/101/100',
+    'https://picsum.photos/102/100',
+    'https://picsum.photos/203/100',
+    'https://picsum.photos/104/100',
+    'https://picsum.photos/205/100',
+    'https://picsum.photos/106/100',
+    
 ];
 
 function Photos() {
     const breakpointColumnsObj = {
-        default: 4, // 3 colunas para telas padrão
-        1100: 2,    // 2 colunas para telas maiores que 1100px
+        default: 5, // 3 colunas para telas padrão
+        1100: 3,    // 2 colunas para telas maiores que 1100px
         700: 1      // 1 coluna para telas menores que 700px
     };
 
