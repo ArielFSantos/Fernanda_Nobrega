@@ -5,6 +5,38 @@
   --cor04:#9c946c;
   --cor05:#94946e;
 }
+
+h1 , label{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600; /* Semibold */
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; /* Medium */
+
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400; /* Normal */
+
+
+}
+
+li {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600; /* Semibold */
+}
+
+footer {
+  font-family: 'Lora', serif;
+  font-weight: 400; /* Normal */
+
+}
+
+
 *{
   padding: 0;
   margin: 0;
