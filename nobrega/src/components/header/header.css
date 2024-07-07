@@ -8,7 +8,6 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid var(--cor05);
     opacity: 0.8;
 }
 header h1{

@@ -26,6 +26,7 @@ function Home(){
             </p>
             </div>
         </main>
+        <div></div>
         </>
     )
 }
