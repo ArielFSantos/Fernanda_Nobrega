@@ -1,8 +1,40 @@
-.container{
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.fotos{
+/* src/components/Pages/photos/photos.module.css */
+
+/* Container principal */
+.container {
     padding: 10px;
+}
+
+/* Estilo da grade Masonry */
+.myMasonryGrid {
+    display: flex;
+    margin-left: -10px; /* Remover espaço entre colunas */
+    width: auto;
+}
+
+/* Cada coluna na grade */
+.myMasonryGridColumn {
+    padding-left: 10px; /* Adicionar espaço entre colunas */
+    background-clip: padding-box;
+}
+
+/* Cada item na coluna */
+.fotos {
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+/* Estilo das imagens */
+.fotos img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito ao passar o mouse */
+.fotos img:hover {
+    transform: scale(1.05);
 }
