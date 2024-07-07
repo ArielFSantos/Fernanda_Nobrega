@@ -8,28 +8,30 @@ import image1 from '../../../image/bg_1_g.jpg'
 import image2 from '../../../image/bg_2_g.jpg'
 import image3 from '../../../image/bg_3_g.jpg'
 import image4 from '../../../image/bg_4_g.jpg'
+import image5 from '../../../image/bg_1_p.jpg'
+import image6 from '../../../image/bg_2_p.jpg'
+import image7 from '../../../image/bg_3_p.jpg'
+import image8 from '../../../image/bg_4_p.jpg'
 
 const images = [
     image1,
-    image2,
+    image5,
     image3,
-    image4,
+    image6,
     image1,
+    image7,
     image2,
-    image3,
     image4,
+    image8,
     image1,
-    image2,
+    image5,
     image3,
-    image4,
+    image6,
     image1,
+    image7,
     image2,
-    image3,
     image4,
-    image1,
-    image2,
-    image3,
-    image4,
+    image8,
 ];
 
 function Photos() {

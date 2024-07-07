@@ -54,11 +54,11 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    width: 100%;
 }
 
 /* Estilo dos botões de navegação */
 .navButton {
-    
     border: none;
     color: black;
     font-size: 2rem;
