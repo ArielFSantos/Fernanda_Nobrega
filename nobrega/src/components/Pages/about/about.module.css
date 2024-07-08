@@ -7,7 +7,8 @@
     height: 200px;
     border-radius: 60%;
     margin: auto;
-    box-shadow: 8px 8px 40px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 20px;
 }
 .title{
     font-size: 40px;
