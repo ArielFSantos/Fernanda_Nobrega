@@ -1,5 +1,3 @@
-/* src/components/header.css */
-
 header {
     top: 0;
     background-color: var(--cor01);
@@ -9,10 +7,8 @@ header {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    opacity: 0.8;
+    flex-wrap: wrap;  
     position: relative;
-    width: 100%;
 }
 
 header h1 {
@@ -53,14 +49,13 @@ header h1 {
 
 .nav-menu ul li a:hover {
     color: var(--cor03);
-    background-color: rgba(0, 0, 0, 0.048);
+    background-color: rgba(0, 0, 0, 0.062);
 }
 
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
     }
-
     .nav-menu {
         display: none;
         flex-direction: column;
@@ -80,7 +75,6 @@ header h1 {
 
     .nav-menu ul {
         flex-direction: column;
-        width: 100%;
     }
 
     .nav-menu ul li {
