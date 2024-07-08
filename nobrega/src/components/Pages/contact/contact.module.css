@@ -6,19 +6,17 @@
     color: var(--cor04);
 }
 .text{
-    margin: auto;
-    text-align: center;
+    margin: 0;
     width: 400px;
     color: var(--cor03);
     font-size: large;
     text-shadow: none;
-    padding: 20px;
+    padding: 20px;    
 }
 .container{
     display: flex;
     flex-wrap: wrap;
-    
-    justify-content: space-evenly
+    justify-content: center;
 }
 
 .insta, .whats{
@@ -27,8 +25,9 @@
 .socialmidias{
     display: flex;
     text-align: center;
-
     flex-direction: column;
+    justify-content: center;
+    padding: 50px;
 }
 .containerInsta, .containerWhats{
     width: 50%;
@@ -45,6 +44,7 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 label {
