@@ -32,5 +32,5 @@ a{
 }
 a:hover{
     color: var(--cor03);
-    background-color: var(--cor02);
+    background-color: rgba(0, 0, 0, 0.048);
 }
