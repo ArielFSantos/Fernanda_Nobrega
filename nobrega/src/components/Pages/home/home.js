@@ -6,11 +6,11 @@ import './home.css';
 function Home() {
     const settings = {
         infinite: true,
-        speed: 100,
+        speed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 6000,
         arrows: false, 
     };
 
