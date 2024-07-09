@@ -2,7 +2,7 @@ header {
     top: 0;
     background-color: var(--cor01);
     color: var(--cor03);
-    padding: 20px;
+    padding: 10px;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -12,9 +12,8 @@ header {
 }
 
 header h1 {
-    padding-bottom: 5px;
     font-family: "Playwrite SK", cursive;
-    font-size: x-large;
+    font-size: large;
 }
 
 .menu-icon {

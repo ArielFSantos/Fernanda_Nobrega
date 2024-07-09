@@ -1,9 +1,9 @@
 footer{
-    padding-bottom: 10px;
-    font-size: 9px;
+    font-size: 7px;
     width: 100%;
     background-color: var(--cor01);
     color: var(--cor05);
     text-align: center;
     opacity: 0.8;
+    padding-bottom: 0.5vw;
 }
