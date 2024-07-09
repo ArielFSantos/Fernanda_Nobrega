@@ -1,8 +1,7 @@
 
 .title{
-    padding-top: 20px;
     text-align: center;
-    
+ 
     color: var(--cor04);
 }
 .text{
@@ -64,6 +63,21 @@ input {
     height: 100px;
 }
 button{
-    margin:10px 0px 30px 0px;
-    width: 50px;
+    margin: auto;
+    background-color: var(--cor01); 
+    color: var(--cor03);
+    border: 2px solid var(--cor03);
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    width: 100px;
+    font-family: 'Lora', serif; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+button:hover{
+    background-color: var(--cor03); 
+    color: var(--cor01); 
+
 }

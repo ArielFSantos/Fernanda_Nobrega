@@ -6,7 +6,7 @@ function Contact(){
     return(
         <>   
         
-            <h1 className={styles.title}>Orçamento</h1>
+            <h1 className={styles.title}>Solicitar Orçamento</h1>
             <span className={styles.container} >
                 <aside className={styles.socialmidias}>
                     <p className={styles.text}>Para realizar um orçamento entre em contato através de minhas redes sociais ou preencha o formulario</p>
