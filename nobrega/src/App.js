@@ -5,6 +5,9 @@ import Contact from "./components/Pages/contact/contact";
 import Photos from "./components/Pages/photos/photos";
 import Home from "./components/Pages/home/home";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function App() {
   return ( 

@@ -45,7 +45,7 @@ function Photos() {
             >
                 {images.map((src, index) => (
                     <div key={index} className={styles.fotos} onClick={() => onOpenModal(index)}>
-                        <img src={src} alt={`Gallery Image ${index + 1}`} />
+                        <img src={src} alt={`Portfolio ${index + 1}`} />
                     </div>
                 ))}
             </Masonry>
@@ -61,7 +61,7 @@ function Photos() {
             >
                 <div className={styles.modalContent}>
                     <button onClick={handlePrev} className={styles.navButton}>&#10094;</button>
-                    <img src={images[selectedImageIndex]} alt={`Gallery Image ${selectedImageIndex + 1}`} className={styles.modalImage} />
+                    <img src={images[selectedImageIndex]} alt={`Portfolio ${selectedImageIndex + 1}`} className={styles.modalImage} />
                     <button onClick={handleNext} className={styles.navButton}>&#10095;</button>
                 </div>
             </Modal>
