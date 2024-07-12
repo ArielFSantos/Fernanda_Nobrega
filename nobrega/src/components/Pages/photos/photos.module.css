@@ -63,7 +63,7 @@
     color: rgb(0, 0, 0);
     font-size: 2rem;
     cursor: pointer;
-    padding: 10px;
+    padding: 30px;
     border-radius: 50%;
     z-index: 10;
     transition: background 0.3s;
@@ -74,6 +74,7 @@
 
 .navButton:hover {
     background: rgb(255, 255, 255);
+    color: black;
 }
 
 .navButton:focus {
