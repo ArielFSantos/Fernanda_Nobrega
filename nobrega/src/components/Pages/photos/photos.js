@@ -7,7 +7,7 @@ import styles from './photos.module.css';
 
 // Importando imagens locais
 const importAll = (r) => r.keys().map(r);
-const images = importAll(require.context('../../../image', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../../photos', false, /\.(png|jpe?g|svg)$/));
 
 function Photos() {
     const [open, setOpen] = useState(false);
