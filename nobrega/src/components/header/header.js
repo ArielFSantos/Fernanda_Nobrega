@@ -1,4 +1,3 @@
-// src/components/Header.js
 import './header.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
@@ -21,16 +20,16 @@ function Header() {
                 <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
                     <ul>
                         <li>
-                            <Link to="/" onClick={toggleMenu}>Página Inicial</Link>
+                            <Link to="/" className="nav-link" onClick={toggleMenu}>Página Inicial</Link>
                         </li>
                         <li>
-                            <Link to="/about" onClick={toggleMenu}>Sobre Mim</Link>
+                            <Link to="/about" className="nav-link" onClick={toggleMenu}>Sobre Mim</Link>
                         </li>
                         <li>
-                            <Link to="/photos" onClick={toggleMenu}>Portfolio</Link>
+                            <Link to="/photos" className="nav-link" onClick={toggleMenu}>Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="/contact" onClick={toggleMenu}>Orçamento</Link>
+                            <Link to="/contact" className="nav-link" onClick={toggleMenu}>Orçamento</Link>
                         </li>
                     </ul>
                 </nav>
