@@ -39,12 +39,15 @@
 .containerMain{
   margin: auto 100px;
   padding: 20px;
-  background-color:var(--cor02);
+  background-color:#e4f8a21a;
 }
 
 /* Media query for .text */
 @media (max-width: 1300px) {
   .text {
     width: 90%;
+  }
+  .containerMain{
+    margin: 0;
   }
 }
