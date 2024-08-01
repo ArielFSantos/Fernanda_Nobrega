@@ -1,6 +1,8 @@
 .title {
     text-align: center;
-    color: var(--cor04);
+    color: var(--cor03);
+    font-family: 'Dutismo', sans-serif;
+    margin-top: 100px;
 }
 a{
     text-decoration: none;
@@ -22,6 +24,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    background-color: var(--cor05);
 }
 
 .insta, .whats {
@@ -55,7 +58,8 @@ a{
 }
 
 .form {
-    color: var(--cor04);
+    font-family: 'Dutismo';
+    color: var(--cor03);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

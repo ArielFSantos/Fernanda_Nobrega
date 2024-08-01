@@ -4,7 +4,6 @@ import styles from './about.module.css';
 
 const About = () => (
   <div className={styles.container}>
-    <div className={styles.about} />
     <main>
       <h1 className={styles.title}>Olá! Eu sou a Fernanda Nóbrega</h1>
       <p className={styles.text}>
@@ -15,6 +14,7 @@ const About = () => (
         Vamos juntos eternizar os seus momentos mais especiais?
       </p>
     </main>
+    <div className={styles.about} />
   </div>
 );
 

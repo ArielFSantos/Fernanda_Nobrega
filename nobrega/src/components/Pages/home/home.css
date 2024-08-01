@@ -3,15 +3,7 @@ main {
   position: relative;
 }
 
-p {
-  width: 77vw;
-  color: var(--cor01);
-  text-shadow: 2px 2px 5px black;
-  font-size: 3.5vw;
-  margin: auto;
-  text-align: center;
-  padding-top: 66vh;
-}
+
 
 .bg-1,
 .bg-2,
@@ -21,7 +13,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
   background-size: cover;
   background-position: top center;
