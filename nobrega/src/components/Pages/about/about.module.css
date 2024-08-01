@@ -3,42 +3,43 @@
   padding-top: 100px;
   background-image: url(../../../image/fernanda.png);
   background-size: cover;
-  width: 300px;
-  height: 460px;
-
-
+  width: 200px;
+  height: 284px;
 }
-
 /* Styles for .container */
 .container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  align-items: flex-end;
   flex-wrap: wrap;
-  background-color: var(--cor05);
+  height: 100vh;
 }
-
-/* Styles for .title */
-.title {
-  font-size: 30px;
-  padding: 20px;
-  text-align: center;
-  color: var(--cor06);
-  font-family: 'Dutismo', sans-serif;
-}
-
 /* Styles for .text */
 .text {
   padding: 10px;
   font-size: 10px;
   text-align: center;
   width: 65vw;
-  color: var(--cor01);
+  color: var(--cor04);
   font-size: x-large;
   text-shadow: none;
   font-weight: 400; /* Normal */
   font-family: 'Dutismo', sans-serif;
   margin: auto;
+}
+.title {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  color: var(--cor03);
+  font-family: 'Dutismo', sans-serif;
+  margin-top: 20px;
+}
+.containerMain{
+  margin: auto 100px;
+  padding: 20px;
+  background-color:var(--cor02);
 }
 
 /* Media query for .text */

@@ -4,7 +4,7 @@ import styles from './about.module.css';
 
 const About = () => (
   <div className={styles.container}>
-    <main>
+    <main className={styles.containerMain}>
       <h1 className={styles.title}>Olá! Eu sou a Fernanda Nóbrega</h1>
       <p className={styles.text}>
         Uma fotógrafa goiana apaixonada por capturar momentos autênticos e emoções verdadeiras. Desde criança, a fotografia é minha grande paixão e,

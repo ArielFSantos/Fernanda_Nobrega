@@ -13,7 +13,6 @@ function Home() {
         autoplaySpeed: 6000,
         arrows: false, 
     };
-
     return (
         <>
             <main>

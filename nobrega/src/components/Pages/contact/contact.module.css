@@ -2,7 +2,6 @@
     text-align: center;
     color: var(--cor03);
     font-family: 'Dutismo', sans-serif;
-    margin-top: 100px;
 }
 a{
     text-decoration: none;
@@ -24,7 +23,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    background-color: var(--cor05);
+    height: auto;
 }
 
 .insta, .whats {
