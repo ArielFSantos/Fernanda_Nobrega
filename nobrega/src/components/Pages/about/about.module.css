@@ -13,7 +13,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 1100px;
 }
 /* Styles for .text */
 .text {
@@ -21,7 +21,7 @@
   font-size: 10px;
   text-align: center;
   width: 65vw;
-  color: var(--cor04);
+  color: var(--cor01);
   font-size: x-large;
   text-shadow: none;
   font-weight: 400; /* Normal */
@@ -32,14 +32,14 @@
   font-size: 30px;
   padding: 20px;
   text-align: center;
-  color: var(--cor03);
+  color: var(--cor01);
   font-family: 'Dutismo', sans-serif;
   margin-top: 20px;
 }
 .containerMain{
   margin: auto 100px;
   padding: 20px;
-  background-color:#e4f8a21a;
+  background-color:var(--cor03);
 }
 
 /* Media query for .text */
