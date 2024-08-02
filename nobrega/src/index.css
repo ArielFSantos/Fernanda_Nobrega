@@ -12,14 +12,10 @@
   font-family: Dutismo;
   src: url('fonts/Dustismo/dustismo.ttf');
 }
-#D9BCA3
-#5F6F52
-#A9B388
-#B99470
-#C4661F
-#783D19
-#59573E
-
+*{
+  margin: 0;
+  padding :0;
+}
 
 h1 , label{
   font-family: 'Playfair Display', serif;
