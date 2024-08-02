@@ -16,7 +16,7 @@ const ContactSchema = Yup.object().shape({
 function Contact() {
     return (
         <>   
-            <div>
+            <div className={styles.bgMain}>
                 <h1 className={styles.title}>Solicitar Orçamento</h1>
                 <span className={styles.container}>
                     <aside className={styles.socialmidias}>
