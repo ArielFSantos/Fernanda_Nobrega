@@ -87,7 +87,7 @@ function Contact() {
                                 <Field className={styles.description} as="textarea" id="descricao" name="descricao" placeholder="Descreva aqui como será o evento" />
                                 <ErrorMessage name="descricao" component="div" className={styles.error} />
                 
-                                <button type="submit" disabled={isSubmitting}>Enviar</button>
+                                <button className={styles.buttonForm}  type="submit" disabled={isSubmitting}>Enviar</button>
                             </Form>
                         )}
                     </Formik>

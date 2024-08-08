@@ -89,7 +89,6 @@
 .navButton:last-of-type {
     right: 10px;
 }
-/* src/components/Pages/photos/photos.module.css */
 
 .customModal {
     max-width: 90%; /* Define a largura máxima do modal */

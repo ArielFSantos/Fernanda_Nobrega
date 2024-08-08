@@ -99,7 +99,7 @@ input, .description {
     height: 100px;
 }
 
-button {
+.buttonForm {
     margin: auto;
     background-color: var(--cor01);
     color: var(--cor03);
@@ -114,7 +114,7 @@ button {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
+.buttonForm:hover {
     background-color: var(--cor03);
     color: var(--cor01);
     border: 2px solid var(--cor01);
@@ -127,6 +127,7 @@ button:hover {
 }
 @media (max-width: 1300px) {
     .bgMain{
-        width: 100vw;
+        width: 97vw;
+
     }
   }
