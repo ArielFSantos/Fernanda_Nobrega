@@ -3,14 +3,13 @@
   padding-top: 100px;
   background-image: url(../../../image/fernanda.png);
   background-size: cover;
-  width: 432px;
-  height: 730px;
+  width: 350px;
+  height: 750px;
 }
 /* Styles for .container */
 .container {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+    justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
 
@@ -20,7 +19,7 @@
   padding: 10px;
   font-size: 10px;
   text-align: center;
-  width: 55vw;
+  width: 50vw;
   color: var(--cor01);
   font-size: x-large;
   text-shadow: none;
@@ -51,4 +50,9 @@
   .containerMain{
     margin: 0;
   }
+  .about{
+    width:200px;
+    height:340px;
+  }
 }
+
