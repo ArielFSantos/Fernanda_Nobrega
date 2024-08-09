@@ -1,5 +1,4 @@
 import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 import About from "./components/Pages/about/about";
 import Contact from "./components/Pages/contact/contact";
 import Photos from "./components/Pages/photos/photos";

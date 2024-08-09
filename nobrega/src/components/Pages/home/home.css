@@ -206,4 +206,12 @@ main {
  
 }
 
+@media(max-width:888px){
+  .welcomeHome{
+    background-image: url(../../../image/bg_home_p.jpg);
+    position: center;
+    background-position: center;
+  }
 
+
+}
