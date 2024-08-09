@@ -74,6 +74,9 @@ function Home() {
                             <div className="bg-4"></div>
                         </Slider>
                     </div>
+                    <Link to="/photos">
+                        <button className='buttonHome'>Mais Fotos</button>
+                    </Link>
                 </main>
                 <ScrollToTopButton /> 
             </div>
