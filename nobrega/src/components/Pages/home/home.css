@@ -155,7 +155,7 @@ main {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .bg-1,
   .bg-2,
   .bg-3,
@@ -209,6 +209,7 @@ main {
 @media(max-width:888px){
   .welcomeHome{
     background-image: url(../../../image/bg_home_p.jpg);
+    background-size: cover;
     position: center;
     background-position: center;
   }
