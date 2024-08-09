@@ -60,8 +60,9 @@ function Home() {
                     </Link>
                 </div>
                 <main className='contain'>
-                    <h1 className='titleJob'>Serviços Realizados</h1>
-                    <p className='textJob'>Registro fotográfico de Aniversários, festas infantis, reencontro de formandos e muito mais.</p>
+                    <h1 className='titleJob'>Serviços</h1>
+                    <p className='textJob'>Bem-vindo ao meu espaço dedicado à arte de capturar momentos únicos. Sou uma fotógrafa especializada em fotografia documental: histórias reais através de eventos, ensaios pessoais e retratos de família. Meu trabalho é voltado para registrar emoções autênticas e criar memórias visuais que duram para sempre. Explore o site e descubra como podemos eternizar juntos os seus momentos especiais.
+                    </p>
                     <div
                         ref={sliderRef}
                         className={`slider-container ${isSliderVisible ? 'fade-in' : 'hidden'}`}
@@ -74,7 +75,7 @@ function Home() {
                         </Slider>
                     </div>
                 </main>
-                <ScrollToTopButton /> {/* Adiciona o botão de voltar ao topo */}
+                <ScrollToTopButton /> 
             </div>
         </>
     );

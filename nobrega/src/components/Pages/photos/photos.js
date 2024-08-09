@@ -4,6 +4,7 @@ import Masonry from 'react-masonry-css';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import styles from './photos.module.css';
+import ScrollToTopButton from '../../topButton/ScrollToTopButton';
 
 // Importando imagens locais
 const importAll = (r) => r.keys().map(r);
@@ -37,35 +38,39 @@ function Photos() {
     };
 
     return (
-        <div className={styles.container}>
-            <Masonry
-                breakpointCols={breakpointColumnsObj}
-                className={styles.myMasonryGrid}
-                columnClassName={styles.myMasonryGridColumn}
-            >
-                {images.map((src, index) => (
-                    <div key={index} className={styles.fotos} onClick={() => onOpenModal(index)}>
-                        <img src={src} alt={`Portfolio ${index + 1}`} />
+        <>
+            <div className={styles.container}>
+                <Masonry
+                    breakpointCols={breakpointColumnsObj}
+                    className={styles.myMasonryGrid}
+                    columnClassName={styles.myMasonryGridColumn}
+                >
+                    {images.map((src, index) => (
+                        <div key={index} className={styles.fotos} onClick={() => onOpenModal(index)}>
+                            <img src={src} alt={`Portfolio ${index + 1}`} />
+                        </div>
+                    ))}
+                </Masonry>
+                {/* Modal para exibir a imagem em tamanho maior */}
+                <Modal
+                    open={open}
+                    onClose={onCloseModal}
+                    center
+                    classNames={{
+                        modal: styles.customModal // Aplicar a classe personalizada
+                    }}
+                >
+                    <div className={styles.modalContent}>
+                        <button onClick={handlePrev} className={styles.navButton}>&#10094;</button>
+                        <img src={images[selectedImageIndex]} alt={`Portfolio ${selectedImageIndex + 1}`} className={styles.modalImage} />
+                        <button onClick={handleNext} className={styles.navButton}>&#10095;</button>
                     </div>
-                ))}
-            </Masonry>
+                </Modal>
+            
+            </div>
+            <ScrollToTopButton />
+        </>
 
-            {/* Modal para exibir a imagem em tamanho maior */}
-            <Modal
-                open={open}
-                onClose={onCloseModal}
-                center
-                classNames={{
-                    modal: styles.customModal // Aplicar a classe personalizada
-                }}
-            >
-                <div className={styles.modalContent}>
-                    <button onClick={handlePrev} className={styles.navButton}>&#10094;</button>
-                    <img src={images[selectedImageIndex]} alt={`Portfolio ${selectedImageIndex + 1}`} className={styles.modalImage} />
-                    <button onClick={handleNext} className={styles.navButton}>&#10095;</button>
-                </div>
-            </Modal>
-        </div>
     );
 }
 

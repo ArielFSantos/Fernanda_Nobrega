@@ -16,7 +16,9 @@
     transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 0;
     visibility: hidden;
-    border: solid var(--cor03);
+    border: solid var(--cor04);
+    cursor: pointer; 
+    margin: 10px;
 }
 
 .scroll-to-top.visible {

@@ -3,10 +3,10 @@ main {
   position: relative;
 }
 .contain{
-  height: 87vh;
+  height: 95vh;
   width: 70vw;
   margin: auto;
-  padding: 50px;
+  padding: 20px;
   overflow: hidden;
   
   
@@ -27,7 +27,12 @@ main {
   padding: 20px;
 }
 .welcomeHome {
-  background-color: var(--cor03);
+  background-image: url(../../../image/bg_home.jpg);
+  background-size: cover; 
+  background-position: right bottom;
+  background-color: #783d1933;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
   margin: auto;
   text-align: center;
   width: 100%;
@@ -109,6 +114,7 @@ main {
   margin: 0 5px; 
   
 }
+
 /* src/components/Pages/home/home.css */
 .hidden {
   opacity: 0;
@@ -161,7 +167,9 @@ main {
     height: 35vh;
   }
   .contain{
-    padding: 50px;
+    padding: 0px;
+    width: 95vw;
+    height: 115vh;
   }
 
   .bg-1 {
@@ -190,5 +198,12 @@ main {
   .logoHome{
     font-size: 3rem;
   }
+ 
+}
 
+@media(max-width:300px){
+  .welcomeHome{
+    background-image: url(../../../image/bg_home_p.jpg);
+    position: top;
+  }
 }
