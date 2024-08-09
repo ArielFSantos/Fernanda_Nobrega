@@ -47,6 +47,7 @@ main {
   font-family: 'Dutismo', sans-serif;   
   letter-spacing: 3px;
   font-size: 8rem;
+  text-shadow: 1px 1px 1px black;
   color: var(--cor01);
 }
 .tittleHome{
@@ -206,4 +207,5 @@ main {
     background-image: url(../../../image/bg_home_p.jpg);
     position: top;
   }
+
 }
