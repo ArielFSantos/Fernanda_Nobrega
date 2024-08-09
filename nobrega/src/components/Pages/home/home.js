@@ -15,7 +15,7 @@ function Home() {
     };
     return (
         <>
-            <main>
+            <main className='contain' >
                 <Slider {...settings}>
                     <div className="bg-1">
                     </div>
