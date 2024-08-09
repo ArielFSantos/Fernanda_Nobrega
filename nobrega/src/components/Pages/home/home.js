@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import './home.css';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '../../topButton/ScrollToTopButton';
 
 function Home() {
     const [isWelcomeVisible, setIsWelcomeVisible] = useState(false);
@@ -23,12 +24,15 @@ function Home() {
             });
         }, { threshold: 0.1 });
 
-        if (welcomeRef.current) observer.observe(welcomeRef.current);
-        if (sliderRef.current) observer.observe(sliderRef.current);
+        const welcomeElement = welcomeRef.current;
+        const sliderElement = sliderRef.current;
+
+        if (welcomeElement) observer.observe(welcomeElement);
+        if (sliderElement) observer.observe(sliderElement);
 
         return () => {
-            if (welcomeRef.current) observer.unobserve(welcomeRef.current);
-            if (sliderRef.current) observer.unobserve(sliderRef.current);
+            if (welcomeElement) observer.unobserve(welcomeElement);
+            if (sliderElement) observer.unobserve(sliderElement);
         };
     }, []);
 
@@ -70,6 +74,7 @@ function Home() {
                         </Slider>
                     </div>
                 </main>
+                <ScrollToTopButton /> {/* Adiciona o botão de voltar ao topo */}
             </div>
         </>
     );
