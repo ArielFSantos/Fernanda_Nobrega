@@ -5,6 +5,7 @@ import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import styles from './photos.module.css';
 import ScrollToTopButton from '../../topButton/ScrollToTopButton';
+import Footer from '../../footer/footer';
 
 // Importando imagens locais
 const importAll = (r) => r.keys().map(r);
@@ -69,6 +70,7 @@ function Photos() {
             
             </div>
             <ScrollToTopButton />
+            <Footer/>
         </>
 
     );

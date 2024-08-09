@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import './home.css';
 import { Link } from 'react-router-dom';
 import ScrollToTopButton from '../../topButton/ScrollToTopButton';
+import Footer from '../../footer/footer';
 
 function Home() {
     const [isWelcomeVisible, setIsWelcomeVisible] = useState(false);
@@ -48,7 +49,7 @@ function Home() {
 
     return (
         <>
-            <div>
+            <div className='containerJob'>
                 <div
                     ref={welcomeRef}
                     className={`welcomeHome ${isWelcomeVisible ? 'fade-in' : 'hidden'}`}
@@ -77,8 +78,10 @@ function Home() {
                     <Link to="/photos">
                         <button className='buttonHome'>Mais Fotos</button>
                     </Link>
+                    <Footer/>
                 </main>
                 <ScrollToTopButton /> 
+                
             </div>
         </>
     );

@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import styles from './contact.module.css';
 import insta from '../../../image/insta.png';
 import whats from '../../../image/whatsapp.png';
+import Footer from '../../footer/footer';
 
 const ContactSchema = Yup.object().shape({
     nome: Yup.string().required('Nome obrigatório'),
@@ -93,6 +94,7 @@ function Contact() {
                     </Formik>
                 </span>
             </div>
+            <Footer/>
         </>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react'; 
 import styles from './about.module.css';
+import Footer from '../../footer/footer';
 const About = () => (
   <div className={styles.container}>
     <main className={styles.containerMain}>
@@ -13,6 +14,7 @@ const About = () => (
       </p>
     </main>
     <div className={styles.about} />
+    <Footer/>
   </div>
 );
 

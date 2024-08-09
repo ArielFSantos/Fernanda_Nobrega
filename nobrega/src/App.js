@@ -19,7 +19,6 @@ function App() {
             <Route path="photos" element={<Photos />} />
             <Route path="contact" element={<Contact />} />
           </Routes>
-          <Footer/>
       </Router>
   );
 }
