@@ -40,7 +40,7 @@ main {
 .logoHome{
   padding: 10px;
   font-family: 'Dutismo', sans-serif;   
-  letter-spacing: 3px ;
+  letter-spacing: 3px;
   font-size: 8rem;
   color: var(--cor01);
 }
