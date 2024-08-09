@@ -110,12 +110,24 @@ main {
   
 }
 /* src/components/Pages/home/home.css */
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fade-in {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-in-out;
+}
+
+/* O resto do CSS permanece o mesmo */
 .scroll-to-top {
   position: fixed;
-  bottom: 30px; 
-  right: 30px; 
-  background-color: var(--cor03); 
-  color: var(--cor01); 
+  bottom: 20px; /* Ajuste conforme necessário */
+  right: 20px; /* Ajuste conforme necessário */
+  background-color: var(--cor01); /* Cor de fundo da seta */
+  color: var(--cor03); /* Cor da seta */
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -125,26 +137,18 @@ main {
   font-size: 24px;
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.hidden {
-    opacity: 0;
-    visibility: hidden;
+  transition: opacity 0.3s ease;
 }
 
-.fade-in {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 1s ease-in-out;
-}
 .scroll-to-top:hover {
-  background-color: var(--cor01);
-  color: var(--cor03);
-  border: solid var(--cor03);
+  background-color: var(--cor03);
+  color: var(--cor01);
 }
 
 .arrow-up {
   display: block;
 }
+
 
 @media (max-width: 1000px) {
   .bg-1,
