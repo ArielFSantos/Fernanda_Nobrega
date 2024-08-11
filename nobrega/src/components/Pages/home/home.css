@@ -27,15 +27,15 @@ main {
 }
 .welcomeHome {
   background-image: url(../../../image/bg_home.jpg);
-  background-size: cover;
-  background-position: right bottom; 
+  background-size: cover; /* Experimente mudar para 'contain' ou '100% 100%' */
+  background-position: right bottom; /* Experimente mudar para 'center' */
   background-color: #783d1933;
   background-blend-mode: overlay;
   background-attachment: fixed;
   margin: auto;
   text-align: center;
   width: 100%;
-  min-height: 95vh;
+  min-height: 95vh; /* Use min-height para garantir responsividade */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,11 +214,6 @@ main {
     background-position: center;
   }
   
-}
-@media (max-width: 375px) {
-  .welcomeHome {
-    background-position: center;
-  }
 }
 
 ::-webkit-scrollbar {
