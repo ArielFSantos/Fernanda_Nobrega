@@ -81,7 +81,6 @@ function Home() {
                     <Footer/>
                 </main>
                 <ScrollToTopButton /> 
-                
             </div>
         </>
     );

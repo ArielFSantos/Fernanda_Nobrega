@@ -214,12 +214,9 @@ main {
     background-position: center;
   }
   
-
-
 }
 @media (max-width: 375px) {
   .welcomeHome {
-    background-size: contain; 
     background-position: center;
   }
 }
