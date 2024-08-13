@@ -32,7 +32,6 @@
   margin: auto;
   text-align: center;
   min-height: 95vh; 
-  min-width: 95vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,7 +107,7 @@
 }
 
 .containerJob{
-  height: 100vh;
+  height: 100%;
 }
 
 
