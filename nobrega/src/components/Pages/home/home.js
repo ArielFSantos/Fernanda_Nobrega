@@ -78,9 +78,9 @@ function Home() {
                     <Link to="/photos">
                         <button className='buttonHome'>Mais Fotos</button>
                     </Link>
+                    <ScrollToTopButton /> 
                     <Footer/>
                 </main>
-                <ScrollToTopButton /> 
             </div>
         </>
     );
