@@ -27,15 +27,15 @@ main {
 }
 .welcomeHome {
   background-image: url(../../../image/bg_home.jpg);
-  background-size: cover; /* Experimente mudar para 'contain' ou '100% 100%' */
-  background-position: right bottom; /* Experimente mudar para 'center' */
+  background-size: cover; 
+  background-position: center; 
   background-color: #783d1933;
   background-blend-mode: overlay;
   background-attachment: fixed;
   margin: auto;
   text-align: center;
-  width: 100%;
-  min-height: 95vh; /* Use min-height para garantir responsividade */
+  width: 100vw;
+  min-height: 95vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,13 +126,12 @@ main {
   transition: opacity 1s ease-in-out;
 }
 
-/* O resto do CSS permanece o mesmo */
 .scroll-to-top {
   position: fixed;
-  bottom: 20px; /* Ajuste conforme necessário */
-  right: 20px; /* Ajuste conforme necessário */
-  background-color: var(--cor01); /* Cor de fundo da seta */
-  color: var(--cor03); /* Cor da seta */
+  bottom: 20px; 
+  right: 20px; 
+  background-color: var(--cor01); 
+  color: var(--cor03);
   border-radius: 50%;
   width: 50px;
   height: 50px;
