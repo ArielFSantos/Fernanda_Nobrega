@@ -9,7 +9,8 @@ import Footer from '../../footer/footer';
 
 // Importando imagens locais
 const importAll = (r) => r.keys().map(r);
-const images = importAll(require.context('../../../photos', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../../photos', false, /\.(png|jpe?g|svg|webp)$/));
+
 
 function Photos() {
     const [open, setOpen] = useState(false);
